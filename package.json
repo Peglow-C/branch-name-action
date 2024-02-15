@@ -1,8 +1,8 @@
 {
   "name": "branch-name-action",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "A Github action that takes the github-ref and extracts the branch name from it, as long as the branch name itself does not contain slashes (/)",
-  "main": "dist/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Peglow-C/branch-name-action.git"

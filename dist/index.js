@@ -26592,7 +26592,7 @@ var __webpack_exports__ = {};
 const core = __nccwpck_require__(1050);
 
 try {
-    core.exportVariable('BRANCH_NAME', process.env.GITHUB_REF.split('/')[2]);
+    core.exportVariable('BRANCH_NAME', process.env.GITHUB_REF.split('/').slice(2).join('/'));
 } catch (error) {
     core.setFailed(error.message);
 }
